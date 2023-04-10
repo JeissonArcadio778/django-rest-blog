@@ -121,7 +121,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Changes: for swagger
 STATIC_ROOT = './static/'
+
+# For users: 
+AUTH_USER_MODEL = 'users.User'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
