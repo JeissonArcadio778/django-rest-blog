@@ -7,6 +7,7 @@ from .models import User
 class UserAdmin(BaseUserAdmin):
     fieldsets = (
         # (None, {'fields': ('username', 'password')}),
+        # (None, {'fields': ('username', 'password')}),
         # ('Información Personal', {'fields': ('first_name', 'last_name', 'email')}),
         # ('Otros', {'fields': ('is_activate', )}),
     )
